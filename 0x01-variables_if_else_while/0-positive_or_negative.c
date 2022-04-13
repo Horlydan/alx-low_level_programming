@@ -5,6 +5,8 @@
 /**
  * main - Entry point
  *
+ *  Printing negative or positive numbers
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d id positive\n", n);
 	}
 	else if (n == 0)
 	{
